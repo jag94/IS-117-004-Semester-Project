@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*DEVELOPER: Jhanelle Gray, IS117-004, Spring 2019 */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: antiquewhite;
+    width: 99%;
+    font-family: Futura, Proxima Nova, Arial, sans-serif;
+    font-size: 100%;
+}
+
+/* header tags */
+header a {
+    float: left;
+}
+
+header h1 {
+    float: left;
+}
+
+header {
+    margin-bottom: 5px;
+    font-family: Futura, Proxima Nova, Arial, sans-serif;
+    font-size: 100%;
+}
+
+/* Navigation tags */
+.move {
+    margin-top: 5px;
+    clear: left;
+}
+
+.navbar-nav {
+    max-width: 99%;
+}
+
+div ul li {
+    text-align: center;
+    padding: 0;
+}
+
+#navi a:hover {
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    background-color: #0056b3;
+}
+
+.nav-item {
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+
+/* main tags */
+main h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+main {
+    margin-bottom: 15%;
+}
+
+div div img {
+    float: right;
+    max-width: 480px;
+    max-height: 380px;
+    min-width: 200px;
+}
+
+div div p {
+    float: right;
+}
+
+/* footer tags */
+footer {
+    background: #20c997;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div div p {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For smaller screens: */
+    html {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    /* For smaller screens: */
+    html {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For smaller screens: */
+    html {
+        font-size: 100%;
+    }
+}
